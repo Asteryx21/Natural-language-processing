@@ -52,3 +52,7 @@ Implemented a simple query mechanism for the index. The mechanism accepts as ani
 which will match to the index entries and will it return the article id and the url of the web pages which contain the entry or the query terms to the user.
 
 The index which is in xml format is loaded into a dictionary with the help of the [xml.etree.ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html) library.
+
+# Part B
+From [here](http://qwone.com/~jason/20Newsgroups), chose the file ***20news-bydate.tar*** because the site recommends it. It has 2 folders inside 1 for train and one for test.
+The purpose of this part is to implement a text categorization system in predefined subject categories
